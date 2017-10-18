@@ -46,7 +46,7 @@ $(function(){
 			oImg.onload=null;
 			num++;
 			$('.loading b').html(parseInt(num/$img.length*100)+"%");
-			if(num>=i){
+			if(num>i){
 				$('.loading').fadeOut()
 			}
 		}
